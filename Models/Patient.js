@@ -45,7 +45,7 @@ const patientSchema = mongoose.Schema(
             type : String
         },
         Vitals:{
-            type:mongoose.Schema,
+            type :JSON
         }
 
         

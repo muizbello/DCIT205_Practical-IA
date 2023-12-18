@@ -2,9 +2,15 @@ const express = require('express');
 const mongoose = require('mongoose')
 const app = express()
 const router = express.Router();
+const Encounter = require('./Models/Encounter');
+const Patient_vitals = require('./Models/Patient_vitals');
+const Patient = require('./Models/Patient')
 
 
-
+app.get('/', (req,res)=>{
+    res.send('API IS Running!...')
+}
+)
 
 
 
