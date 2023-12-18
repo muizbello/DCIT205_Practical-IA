@@ -5,7 +5,7 @@
 ### Muiz Bello -- 11068463
 
 ### Project Overview
-This is the backend API for a hospital records keeping system. It is build using NodeJS, ExpressJS, and MongoDB.
+This is the backend API for a hospital records keeping system. It is built using NodeJS, ExpressJS, and MongoDB.
 There are five models, describing different use cases of the system. These models include a nested model that allows the Patient model to store the patient vitals schema.
 The main interface of the system resides in the "server.js" file.(This is where the C.R.U.D operations are implemented).
 
